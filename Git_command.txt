@@ -1,0 +1,56 @@
+Topic : Github Tutorial
+
+Concepts
+
+Create a "repository" 
+Copy (or clone) the repository to your local machine
+Add a file to your local repo and "commit" (save) the changes
+"Push" your changes to your main branch
+Make a change to your file with a git hosting tool and commit
+"Pull" the changes to your local machine
+Create a "branch" (version), make a change, commit the change
+Open a "pull request" (propose changes to the main branch)
+"Merge" your branch to the main branch
+
+Facts
+git is a distributed version control system , for tracking changes in source code during software development
+ 
+Commands Learned 
+ 
+Intallation command
+
+git - - version (To Check Version)
+git config - - global user.name chandra123(To configure user name)
+git config - - global user.email  chandrakantprasad68@gmail.com(To configure email) 
+git config user.name(To get the user name)
+
+Creating Git Repos
+git init(To Create Local Repository)
+
+Staging File
+git add (To Stage Files)
+git rm - - cached filename.(To UnStage Files)
+git add .  (To Add all)
+
+Making Commits
+git commit - m "added proper comment"(To Commit) 
+git log   (Author date time and time of commit  coming in encrypted format)
+git log - - oneline (To Check all git commits)
+git checkout uniqueId (To Check commits)
+git revert uniqueId ( To Undone Commits)
+git reset uniqueId
+git reset uniqueId  - - hard(To Delete Details)
+git log  - - oneline (Watch all commits)
+
+Git Branches
+git branch branch_name 
+git branch - a (To see all branch)
+git checkout branch_name (Switches to that branch name)
+git branch - d branch_name (deletes branch When branch is merged)
+git branch - d branch_name (deletes branch When branch is unmerged)
+git checkout - b newbranch_name
+
+Git Merge
+git merge branchName (To merge with main Branch)
+Conflicts  Shift (  :wq )
+git commit "new one" 
